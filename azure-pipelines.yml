@@ -1,7 +1,6 @@
 trigger:
 - master
-pool:
-  vmImage: 'windows-latest'
+pool: Default
 steps:
 - task: CopyFiles@2
   inputs:
